@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Script>
+<Init>
+	<A Param2="InitParamA2" Param1="InitParamA1"/>
+	<B Param3="InitParamB3" />
+	<C/>
+</Init>
+<Sequence>
+	<A Param2="ExecParamA2" Param1="ExecuteParamA1"/>
+	<A/>
+	<B/>
+	<C Param1="ExecuteParamC1"/>
+	<C Param2="ExecuteParamC2"/>
+	<B/>
+	<B/>
+	<A/>
+</Sequence>
+<DeInit>
+	<A/>
+	<C/>
+	<B/>
+</DeInit>
+</Script>
